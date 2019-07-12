@@ -13,9 +13,12 @@ public abstract class MyObserver<T> implements Observer<T> {
 
     private CompositeDisposable compositeDisposable;
 
-    public MyObserver(CompositeDisposable compositeDisposable) {
+    protected MyObserver(CompositeDisposable compositeDisposable) {
         this.compositeDisposable = compositeDisposable;
     }
+// TODO: 12/07/2019
+
+
 
     @Override
     public void onSubscribe(Disposable d) {
