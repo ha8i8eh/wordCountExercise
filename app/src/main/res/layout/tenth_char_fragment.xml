@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <TextView
+        android:id="@+id/result_tv_tenthChar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/tenth_char_bg"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/cardViewBg"
+        />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/Tenth_Fragment_lottie_pb"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/simple"
+        />
+</FrameLayout>

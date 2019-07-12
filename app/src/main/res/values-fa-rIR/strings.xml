@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">اپلیکیشن کلمه شمار</string>
+    <string name="main_btn_start">شروع</string>
+
+    <string name="first_tenth_char_header">کاراکتر دهم متن</string>
+    <string name="all_tenth_char_header">کاراکترهای مضرب ده</string>
+    <string name="word_count_header">تعداد تکرار کلمات در متن</string>
+</resources>

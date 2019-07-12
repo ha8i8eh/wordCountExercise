@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Word Counter</string>
+    <string name="main_btn_start">Start</string>
+
+    <string name="first_tenth_char_header">First Tenth Character</string>
+    <string name="all_tenth_char_header">All Tenth Characters</string>
+    <string name="word_count_header">Word Counts</string>
+</resources>
