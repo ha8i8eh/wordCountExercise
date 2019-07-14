@@ -16,7 +16,6 @@ public abstract class MyObserver<T> implements Observer<T> {
     protected MyObserver(CompositeDisposable compositeDisposable) {
         this.compositeDisposable = compositeDisposable;
     }
-// TODO: 12/07/2019
 
 
 
